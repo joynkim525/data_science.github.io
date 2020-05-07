@@ -21,7 +21,7 @@ title                    : "세상에는 궁금한 것이 많다"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "김주연 Jooyeon Kim"
-description              : "An amazing website."
+description              : "공부한 내용들 정리하고 공유하는 블로그"
 url                      : "https://joynkim525.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,15 +94,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "김주연 Jooyeon Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "통계랑 데이터 사이언스 위주로, 다양하게 이것저것 배워보고 있습니다."
+  location         : "Seoul, Korea"
+  email            : "joynkim525@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto: joynkim525@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
