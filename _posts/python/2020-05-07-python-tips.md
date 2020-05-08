@@ -4,11 +4,8 @@ date: 2020-05-07 11:23 -0400
 categories: jekyll update
 ---
 
-<head>
-Jupyter Notebook 기준으로 작성하여 차이가 있을 수 있음. <br>
-</head>
+** Jupyter Notebook 기준으로 작성하여 차이가 있을 수 있음. <br>
 
-<body>
 1. 패키지 설치
 
 cmd> pip install _packagename_
@@ -23,7 +20,7 @@ InteractiveShell.ast_node_interactivity = "all"
 3. 커서 여러 개 만들기
 
 Ctrl + 원하는 위치 클릭
-* spyder에서는 적용되지 않음
+** spyder에서는 적용되지 않음
 
 4. Jupyter Notebook pdf 저장
 
@@ -52,6 +49,7 @@ np.unique(x, axis = 1)
 np.sum(x, axis = 0)
 np.sum(x, axis = 1)
 ```
+
 1) np.unique(x, axis = 0)
 [1,0,1], [0,2,0], [1,0,1], [0,2,0]을 각각 하나의 요소로 보고 비교 <br>
 -> [1,0,1], [0,2,0]만 결과로 남고 <br>
@@ -62,7 +60,7 @@ np.sum(x, axis = 1)
 (실제로는 세로로 배열되어 있음) <br>
 -> [1,0,1,0], [0,2,0,2]만 결과로 남고 <br>
 -> 첫 번째 요소를 기준으로 정렬해서 반환 <br>
-* output은 컬럼을 기준으로 생각하면 됨. <br>
+** output은 컬럼을 기준으로 생각하면 됨. <br>
 
 
 
