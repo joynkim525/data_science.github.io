@@ -29,10 +29,10 @@ Ctrl + 원하는 위치 클릭
 <p>
 <h3> 4. Jupyter Notebook pdf 저장 <\h3>
 
-MikTex를 설치하고, 추가 패키지들까지 설치했는데도 불구하고
-File - Download as - PDF via LaTex(.pdf)에서 오류가 발생할 때 pdf로 저장하는 방법 
-"nbconvert failed: PDF creating failed, captured latex output: \
- Failed to run "xelatex .\notebook.tex -quiet" command:" \
+MikTex를 설치하고, 추가 패키지들까지 설치했는데도 불구하고 <br>
+File - Download as - PDF via LaTex(.pdf)에서 오류가 발생할 때 pdf로 저장하는 방법 <br>
+"nbconvert failed: PDF creating failed, captured latex output: <br>
+ Failed to run "xelatex .\notebook.tex -quiet" command:" <br>
 
  1) File - Download as - HTML(.html)로 저장하고 HTML 파일을 연다
  2) '메뉴 - 인쇄' 혹은 ' Ctrl + P'로 인쇄창을 띄운다
