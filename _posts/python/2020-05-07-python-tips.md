@@ -4,8 +4,10 @@ date: 2020-05-07 11:23 -0400
 categories: jekyll update
 ---
 
+<head>
 Jupyter Notebook 기준으로 작성하여 차이가 있을 수 있음.
-
+</head>
+<body>
 1. 패키지 설치
 
 cmd> pip install _packagename_
@@ -32,3 +34,51 @@ File - Download as - PDF via LaTex(.pdf)에서 오류가 발생할 때 pdf로 �
  1) File - Download as - HTML(.html)로 저장하고 HTML 파일을 연다
  2) '메뉴 - 인쇄' 혹은 ' Ctrl + P'로 인쇄창을 띄운다
  3) '대상'에서 'PDF로 저장'으로 선택하고 저장하면 완료!
+
+
+5. axis 의미
+- axis = 0: 행(row)을 하나의 단위로 취급
+- aixs = 1: 열(columns)을 하나의 단위로 취급
+
+ex.
+``` python
+x = np.array([[1,0,1],
+            [0,2,0],
+            [1,0,1],
+            [0,2,0]])
+np.unique(x, axis = 0)
+np.unique(x, axis = 1)
+np.sum(x, axis = 0)
+np.sum(x, axis = 1)
+```
+1) np.unique(x, axis = 0)
+[1,0,1], [0,2,0], [1,0,1], [0,2,0]을 각각 하나의 요소로 보고 비교 <br>
+-> [1,0,1], [0,2,0]만 결과로 남고 <br>
+-> 첫 번째 요소를 기준으로 정렬해서 반환 <br>
+
+2) np.unique(x, axis = 1)
+[1,0,1,0], [0,2,0,2], [1,0,1,0]을 각각 하나의 요소로 취급하여 비교 <br>
+(실제로는 세로로 배열되어 있음) <br>
+-> [1,0,1,0], [0,2,0,2]만 결과로 남고 <br>
+-> 첫 번째 요소를 기준으로 정렬해서 반환 <br>
+<br>
+output은 컬럼을 기준으로 생각하면 됨. <br>
+[[0, 1], <br>
+ [2, 0], <br>
+ [0, 1], <br>
+ [2, 0]] <br>
+ = <br>
+ [0, <br>
+  2, <br>
+  0, <br>
+  2] <br>
+  와 <br>
+ [1, <br>
+  0, <br>
+  1, <br>
+  0] <br>
+  을 가로방향으로/ 이어붙인 것과 동일 <br>
+
+
+3. 
+</body>
