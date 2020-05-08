@@ -66,7 +66,7 @@ np.sum(x, axis = 1)
 output은 컬럼을 기준으로 생각하면 됨. <br>
 [[0, 1], &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [0, &nbsp;&nbsp;&nbsp;&nbsp; [1, <br>
 [2, 0], &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  2, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  0, <br>
-[0, 1], &nbsp;&nbsp; = &nbsp;&nbsp;           0, 와 &nbsp;&nbsp;           1, 을 가로방향/옆으로 이어붙인 것과 동일 <br>
+[0, 1], &nbsp; = &nbsp;          0, &nbsp; 와 &nbsp;           1, &nbsp; 을 가로방향/옆으로 이어붙인 것과 동일 <br>
 [2, 0]] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  2,] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0]  <br>
 
 3. 
