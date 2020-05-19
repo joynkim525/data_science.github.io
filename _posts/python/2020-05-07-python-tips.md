@@ -1,7 +1,7 @@
 ---
 title: "python_tips"
 date: 2020-05-07 11:23 -0400
-categories: jekyll update
+categories: python
 ---
 
 ** Jupyter Notebook 기준으로 작성하여 차이가 있을 수 있음.
