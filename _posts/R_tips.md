@@ -1,5 +1,5 @@
 ---
-title: R tips
+title: "R tips"
 date: 2020-05-19
 categories: r
 ---
