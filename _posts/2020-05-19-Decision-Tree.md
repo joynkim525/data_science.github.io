@@ -1,3 +1,9 @@
+---
+title: "Decision Tree"
+date: 2020-05-19 13:16 -0400
+categories: r
+---
+
 ```r
 library(C50)
 
