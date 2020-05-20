@@ -65,5 +65,6 @@ np.sum(x, axis = 1)
 ** output은 컬럼을 기준으로 생각하면 됨. <br>
 
 ### graphviz error 해결하기
-http://graphviz.gitlab.io/download/ 에서 설치 파일 다운로드
-시스템 환경 변수 편집 - 환경변수 - Path - 새로 만들기 - "C:\Program Files (x86)\Graphviz2.38\bin" 추가 - cmd 창 set / python 껐다가 켜기 
+http://graphviz.gitlab.io/download/ 에서 설치 파일 다운로드 <br>
+시스템 환경 변수 편집 - 환경변수 - Path - 새로 만들기 - "C:\Program Files (x86)\Graphviz2.38\bin" 추가 <br>
+- cmd 창 set / python 껐다가 켜기 
