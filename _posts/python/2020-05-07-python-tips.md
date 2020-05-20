@@ -63,3 +63,7 @@ np.sum(x, axis = 1)
 -> [1,0,1,0], [0,2,0,2]만 결과로 남고 <br>
 -> 첫 번째 요소를 기준으로 정렬해서 반환 <br>
 ** output은 컬럼을 기준으로 생각하면 됨. <br>
+
+### graphviz error 해결하기
+http://graphviz.gitlab.io/download/ 에서 설치 파일 다운로드
+시스템 환경 변수 편집 - 환경변수 - Path - 새로 만들기 - "C:\Program Files (x86)\Graphviz2.38\bin" 추가 - cmd 창 set / python 껐다가 켜기 
