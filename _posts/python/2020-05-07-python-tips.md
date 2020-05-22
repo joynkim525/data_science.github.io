@@ -68,3 +68,16 @@ np.sum(x, axis = 1)
 http://graphviz.gitlab.io/download/ 에서 설치 파일 다운로드 <br>
 시스템 환경 변수 편집 - 환경변수 - Path - 새로 만들기 - "C:\Program Files (x86)\Graphviz2.38\bin" 추가 <br>
 - cmd 창 set / python 껐다가 켜기 
+
+
+### python에서 iris 데이터 사용하기
+``` python
+from sklearn import datasets
+
+iris = datasets.load_iris()
+iris = pd.DataFrame(iris.data, iris.target)
+iris = iris.reset_index()
+iris.columns = ('SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth', 'Species')
+iris['Species'] = iris['Species'].map({0: 'Setosa', 1: 'Versicolor', 2: 'Verginia'})
+```
+R과 동일한 형태로 iris 데이터를 가공하여 사용할 수 있다.
