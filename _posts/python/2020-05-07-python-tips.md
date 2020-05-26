@@ -77,7 +77,8 @@ from sklearn import datasets
 iris = datasets.load_iris()
 iris = pd.DataFrame(iris.data, iris.target)
 iris = iris.reset_index()
-iris.columns = ('SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth', 'Species')
-iris['Species'] = iris['Species'].map({0: 'Setosa', 1: 'Versicolor', 2: 'Verginia'})
+iris.columns = ('Species', 'SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth')
+iris = iris[['SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth', 'Species']]
+iris['Species'] = iris['Species'].map({0: 'Setosa', 1: 'Versicolor', 2: 'Virginia'})
 ```
 R과 동일한 형태로 iris 데이터를 가공하여 사용할 수 있다.
