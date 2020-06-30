@@ -20,14 +20,14 @@ locale                   : "en-US"
 title                    : "세상에는 궁금한 것이 많다"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Joen"
+name                     : "Jooyeon Kim"
 description              : "공부한 내용들 정리하고 공유하는 블로그"
 url                      : "https://joynkim525.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Joen's Data Mining"
+masthead_title           : "Travel to Data"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -96,7 +96,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Joen"
+  name             : "Jooyeon Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "통계랑 데이터 사이언스 위주로, 다양하게 이것저것 배워보고 있습니다."
   location         : "Seoul, Korea"
