@@ -1,5 +1,5 @@
 ---
-title: "Decision Tree"
+title: "Classification : decimal place"
 date: 2020-05-19 13:16 -0400
 categories: r
 ---
